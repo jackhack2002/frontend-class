@@ -1,0 +1,55 @@
+/* body{
+    background-color: red;
+}
+
+#para1{
+    color:aqua;
+}
+
+.para2{
+    color:blue;
+}
+#para3{
+    color:aliceblue;
+}
+#para4{
+    color:coral;
+}
+
+.para5{
+    color: yellow;
+}
+
+#q{
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: 'Borel', cursive;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+#w{
+
+    font-family: 'Lugrasimo', cursive;
+    border-style: double;
+
+}
+
+@font-face {
+    src: url(\fonts\Borel\Borel-Regular.ttf);
+    font-family:'Courier New', Courier, monospace ;
+}
+
+
+h1{
+    color: rgb(8, 69, 200);
+    text-shadow: 3px 3px 5px hsl(268, 100%, 50%), -3px -3px 5px hsl(217, 94%, 49%);
+}
+
+
+#countLabel{
+    padding-right: 20px;
+}
+
+ */

@@ -1,0 +1,117 @@
+
+header{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 80px;
+    width: 250px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 400px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    color: #030303;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons button + button {
+    margin-left: 10px;
+}
+
+select{
+    border-radius: 5pt; 
+    font-size: medium;
+    width: 300px;
+}
+
+#dropdown{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+}
+
+#heading{
+    margin-left: 100px;
+}
+
+#food{
+    background-color: darkgray;
+    
+}
+
+#food-items{
+    color: black;
+    height: 500px;
+}
+
+.food-images1{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.food-images2{
+    height: 100px;
+    width: 100px;
+    margin-left: 600px;
+}
+
+h4{
+    margin-left: 150px;
+    font-size:x-large;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li{
+    padding: 10px 75px;
+}
+
+input{
+    height: 35px;
+    width: 300px;
+}
+
+.location{
+    padding: 100px;
+    align-items:flex-end;
+}
+
+#dropdown-img{
+    align-items: self-end;
+    height: 25px;
+}
+
+a{
+    width: 150px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+#search-bar{
+    padding-right: 1px;
+}

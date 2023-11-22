@@ -1,0 +1,351 @@
+JAVASCRIPT:-
+Javascript is a web-based interpreted programming language, that is used to add interactive behaviour to web pages build web and mobile 
+applications to create a command line tools and for game development.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+We need to follow some steps to keep a name for class, objects, variables, constructors, project name. No space between any words during the 
+naming of the above mentioned. We can use underscore, etc.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Coding Standards - It is divided into two types 
+-> Pascal Rule - This rule is used while giving names to Class, Project, Constructors.
+Every word's first letter will be in capital.
+Ex:- Siva Frontend Student
+-> Camel Rule - This rule is used while giving names to Methods, Objects, Variables.
+Except first word remaining word's first letter will be in capital and first word first letter must be small.
+Ex:- siva Frontend Student
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+We should'nt follow:                                     We can follow: 
+Numeric Alpha                                              Alpha Numeric
+Ex:- 3m, 1@                                                  Ex:- a1, rollNum@2
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Variables:-
+A variable is a container for storing a data. A variable behaves as if it was the value that it contains.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Two Steps
+1. Declaration -> (var, let, constant) [Keywords in Javascript]
+
+2. Assignment -> (= assignment operator) 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Arithmetic Operators:
++, -, *, /, %.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Arithmetic Expressions:
+Arithmetic Expressions is a combination of operands (values, variables, etc).
+operators (+ - * / %) that can be evaluated to a value.
+Example:
+y = x + 5;
+(In this x and y are operands and + is operator.)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Variables :-
+----------
+
+Variables is a container for storing a data
+
+A Variables behaves as if it was the value that it contains
+
+//two steps
+
+1) declaration (var, let, const)
+
+2) assignment oper (= assignment operator)
+
+for storing strings ("" or '') can be used
+___________________________________________________________________________________________________________________________________________
+
+arithmetic operators
+--------------------
+
++,-,*,/,%
+
+with string arithmetic operators cancatenate "+" is used to concatenate the string
+
+arithmetic Expressions
+----------------------
+
+arithmetic expressions is a combination of operands (values, variables, etc)
+operators(+ - * / %)
+
+
+User Input :-
+--------------
+
+let username = window.prompt("what is your name?");
+
+
+type conversion :
+-----------------
+
+Type conversion = change the datatype of a value to another datatype of value (string, numbers, boolean)
+
+x = Number("3.14");
+
+y = String(3.14);
+
+z = Boolean("");
+ 
+
+
+Constant:-
+-----------
+
+const --> value variable can't be changed
+
+Strings , String Properties and Methods
+
+String :- group of chracters or collection of words which is enclosed within the double quotes is called strings
+
+
+
+notes:- index based 0 to (n-1)  where n is lenth of string
+
+Slice() --> Extract a section of string  and return as a new string
+
+
+
+method chaining : - it is programming technique to calling one method after another in one continous line of code 
+
+
+if statement = a basic form od decision making, if a condition is true, then do something, if not, then don't do it.
+
+nested if or if else if ladder statement
+____________________________________________
+
+if(){
+}esle(){}
+
+checked property
+-------------------
+ It is used to check the check box and radio button
+
+switches
+-----------
+statement that examines a vlaue for a match against many case clauses.
+
+more efficient that many "else if" statements
+
+AND OR logical Operators
+------------------------
+
+gives ability to check more than one condition concurrently
+
+&& --> AND (both conditions must be true).
+|| --> OR (Either conditions can be true).
+! --> NOT (used to reverese the condition's boolean value)
+	true -> false
+	false->true
+
+
+Control Statements or loop statements
+--------------------------------------
+
+Initialization --> were we start
+
+Condition --> were to stop, if condition is true loop goes on else will terminate.
+
+Iteration --> Increase or decrease the value
+
+Increment and decrement operators
+i++  --> post increment
+++i  --> pre increment
+i--  --> post decrement
+--i  --> pre decrement
+
+Types of looping Statement
+------------------------------
+
+While loop, do while loop, for loop, nested loops
+
+While loop = it will repeat some code, while the condition is true, It is also called entry control.
+
+Syntax loop
+
+
+Functions
+----------
+
+
+Define code once,  and use it for many times, to perform some code, we need to call the functions name.
+
+
+Global variables - it is the variables declare out the functions can be used globally through out the program.
+
+ternary operator - shortcut for an "if/else" statement.
+
+1. a condition with ?
+2. Expression if true :
+3. expression if false 
+Example:- 
+	condition ? expiftrue : expiffalse
+
+Variable scope :- where a variable is accesible 
+
+let = variable are limited to block of scope{}
+
+var = variables are limited to function(){}
+
+Template Literals = instead of double or single qoutes, which allows embedded variables and expressions 
+
+delimited with - (`)
+
+format currency
+ 
+toLocalString()
+number.toLocalString(Locale,{options});
+
+'locale' --> it will specify the language
+'options' --> object with formatting options
+
+array in JS
+--------------
+Array --> array can be 
+
+
+loop through the array
+
+2d array --> array of arrays.
+
+spread operator in JS
+
+it allows an iterable such as an array or string to be expanded as the unpacks of the element.
+
+rest parameter --> 
+
+callBacak --> a function that passes as an argument to another function.
+
+ ensures thaat function is not going to run before a task is completed 
+
+that helps us to avoid errors  and potential problems.
+
+
+array.forEach() --> executs provided callback function once for each array element.
+
+nested functions :- function inside other functions , outer functions have access ti inner functions.
+
+Map --> object that holds key-value pairs of any datatype.
+key   name
+---   -----
+101 - ameen
+102 - ashik
+103 - sunil
+104 - jacob
+
+
+arrow function -->   =>
+
+
+
+Objects in JS :- group properties and methods
+
+properties - what a object has
+
+methods - what an objects can do
+
+
+use. to access the properties/ methods
+
+this -> reference to particular object,the object depends on the immediate context
+
+class  --> it is a blue print of creating objects, which define what properties and methods they have and use a constructor for 
+
+
+constructor --> special method of class, it will accepts aruguments and assign properties.
+
+Static - > belong sto class, not for objects.
+
+properties --> useful for caches, fixed configuration.
+
+methods --> useful for utility functions.
+
+inhertance :- a child class can inherit all the method and properties from another class.
+
+super :- refers to the parents class, it commonly used to invoke constructor of a parents class.
+
+
+
+
+Property Functions or methods
+
+getters and setters
+-------------------
+
+Getters
+-------
+
+get --> binds an object property to function, when the property is accessed.
+
+
+Objects as Arguments / Parameters:
+-----------------------------------
+It is Passing an object as a parameter to a function which is being called.
+
+
+Array of Objects:
+-----------------
+It is a collection of objects together.
+
+Annonymous Objects:
+-------------------
+It is objects without names, It is also not directly referenced, It has a less syntax, no need for unique names.
+
+Error handling:
+---------------
+	 It is a process of handling the errors.
+Error - Objects with a description of something went wrong.
+It cannot open a file, It has loss connection, User types incorrect input, type error.
+
+typeerror
+-----------
+
+throw :- executes a user-defined error
+
+finally :- if there is error occured or not the finally block will execute always.
+
+setTimer() function ---> invokes a function after certain time
+
+clearTimer() function ---> clears the timer action.
+
+
+Date Objects : - the date objects is used to work with date and times.
+
+Date() --> object to work with date and time.
+
+Synchronous code --> In an ordered sequence
+		     step-by-step linear instructions (start now, finish now)
+
+
+Asynchronous code --> out sequence 
+
+eg: access a database, fetch a file, tasks that take time.
+
+start now , finish sometime later.
+
+promise = object that encapsulates the result of an asynchronous operation.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ES6 Modules
+-----------
+
+the idea behind a module is that, it is file of reusable code.
+
+We can import the sections of pre-written code to use whenever we want.
+
+Great for any general utility values and functions, helps to make our code more reusable and maintainable.
+
+
+DOM ---> Document Object Model
+
+	DOM is the representation of HTML document.
+
+an interface for changing the content of a page.
+
+Dom Traversal
+
+Events :- it is some actions that user or browser does.
+
+addEventListener()
+
+
+
+

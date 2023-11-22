@@ -1,0 +1,152 @@
+margins :- space around the element 
+
+margin - for all sides
+
+margin-top -for top
+margin-bottom -for bottom
+margin-right -for right side
+margin-left for left side
+
+
+Float:- it allows to flow around it
+
+overflow- it is a property that sets the desired behavior when content does not fit in the parent element box(overflow)
+
+overflow: visible
+overflow: hidden
+overflow: clip
+overflow: scroll
+overflow: auto - helps to keep scroll on left only negalate the vertical scroll
+
+
+Display :-
+
+block-level = start on a new line , take up the full width available
+
+		(h1, div, form, header, footer)
+
+inline = do not start on new line, width is limited to what we needed
+		(span, a, img)
+
+
+inline-block - with block inline
+
+hidden - block hidden
+
+padding - adjust the content to border
+
+box-sizing - for resizing the box
+
+
+
+width and height propertities
+
+positions
+
+relative - it positions relatively
+
+fixed - positioned relative to viewport
+
+absolute - positioned relative to nearest ancestor 
+
+sticky - positioned based on scroll position
+
+static - default position for an element
+
+
+
+
+__________________________________________________________________________________________________________________
+
+insertion of image using css
+----------------------------
+background-image: url(/img/background.jpg);
+
+__________________________________________________________________________________________________________________
+
+combinators : - 
+-----------
+
+explains the relationship between listed selectors
+
+	-> descendant --> = and Space
+	-> child --> > =
+	-> general sibling --> ~ =
+	-> adjacent sibling --> + =
+
+
+
+we can say all the children are descendant but we can't say all the descendant are child
+
+_______________________________________________________________________________________________________________
+
+Pseudo-classes :-
+--------------
+
+it is keyword added to a selector
+
+pseudo-element
+pagination
+dropdown menus
+navgation bar
+website layout
+
+_________________________________________________________________________________________________________________
+
+Pseudo Elements :-
+------------------
+
+key word added after a selector. that is used to style a specific parts of element
+
+selector::pseudo-elements
+
+example :-
+	h1:firstletter{}
+
+
+
+Pagination :-
+
+method by which a document is separated into page and numbers are given.
+______________________________________________________________________________________________________________________
+
+Dropdown :-
+--------
+
+
+Website Layout :-
+
+keep our content organised better for seo, assists screen readers and other tech for accessibility
+
+<header> --> intro content
+<nav> --> navigation bar
+<main> --> main body of the content
+<article>
+section
+aside
+footer
+
+
+
+flex box
+__________
+
+display : flex;
+flex-direction : row;
+flex-direction : row-reverse;
+
+
+
+Transformations
+---------------
+
+transform = css property lets you transform
+
+
+
+animation 
+------------
+
+
+@key frame - used for animation propose
+ 

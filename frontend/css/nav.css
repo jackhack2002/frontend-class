@@ -1,0 +1,28 @@
+.navbar{
+    background-color: aqua;
+    height: 30px;
+    float: hidden;
+}
+
+.list a{
+    padding: 20px 15px;
+    /* float: none; */
+    text-decoration: none;
+    /* list-style-type: none; */
+    /* float: none; */
+    /* align-items: center; */
+
+}
+
+.list a:hover{
+    background-color: #fff;
+    padding: 10px 15px;
+}
+
+body{
+    margin: 0px;
+}
+
+.list{
+    justify-content: space-around;
+}
